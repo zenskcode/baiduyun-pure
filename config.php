@@ -1,9 +1,5 @@
 <?php
 
-/**
- * ！！！谨慎修改本文件，如果手动修改后再在后台设置，可能导致config.php文件被清空！！！
- */
-
 const programVersion = '2.1.9.1';
 if (!defined('init')) {
 	http_response_code(403); header('Content-Type: text/plain; charset=utf-8'); header('Refresh: 3;url=./');
@@ -17,10 +13,10 @@ if (!function_exists('curl_init')) {
 
 const Sitename = '百度云解析';
 
-const BDUSS = 'kZjZ1BhaTdJQkM3VGFUWkVPTWZ3WH5UbGFVS0RubkZRS3kwc21sd21oYjc5aDloRVFBQUFBJCQAAAAAAAAAAAEAAACMmK9c16OzybfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPtp-GD7afhgc';
-const STOKEN = '18cf4f9c4912968811739bfad48e61bcb6e8e243f93984530ee7c43a099e7507';
-const SVIP_BDUSS = 'kZjZ1BhaTdJQkM3VGFUWkVPTWZ3WH5UbGFVS0RubkZRS3kwc21sd21oYjc5aDloRVFBQUFBJCQAAAAAAAAAAAEAAACMmK9c16OzybfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPtp-GD7afhgc';
-const SVIP_STOKEN = '18cf4f9c4912968811739bfad48e61bcb6e8e243f93984530ee7c43a099e7507';
+const BDUSS = '此处填入普通账号BDUSS，用于获取文件信息';
+const STOKEN = '此处填入普通账号STOKEN，用于获取文件信息';
+const SVIP_BDUSS = '此处填入SVIP账号BDUSS，用于获取高速下载直链';
+const SVIP_STOKEN = '此处填入SVIP账号STOKEN，用于监测SVIP账号状态，可不填';
 
 const IsCheckPassword = false;
 const Password = '';
