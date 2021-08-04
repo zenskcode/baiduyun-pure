@@ -3,7 +3,6 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主机： localhost
--- 生成日期： 2021-08-04 15:21:32
 -- 服务器版本： 5.6.48-log
 -- PHP 版本： 7.2.32
 
